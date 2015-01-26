@@ -6,3 +6,4 @@ Implementation of Conway's Game of Life in different languages. This is an under
 ### Languages Available
 
 * Elixir
+* Ruby
