@@ -27,10 +27,10 @@ RSpec.describe GameOfLife do
   it "returns alive neighbour count for a cell" do
     @game_of_life.universe[[0,0]] = true
     @game_of_life.universe[[1,0]] = true
-    expect(@game_of_life.alive_neighbour_count([1,1])).to eq(2)
+    expect(@game_of_life.neighbour_count([1,1])).to eq(2)
 
     @game_of_life.universe[[2,2]] = true
-    expect(@game_of_life.alive_neighbour_count([1,1])).to eq(3)
+    expect(@game_of_life.neighbour_count([1,1])).to eq(3)
   end
   
 end

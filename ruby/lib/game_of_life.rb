@@ -9,7 +9,7 @@ class GameOfLife
     (alive_in_this_gen && neighbour_count == 2) || neighbour_count == 3
   end
 
-  def alive_neighbour_count cell
+  def neighbour_count cell
     row, col = cell
     neighbour_count = 0
     (row - 1 .. row + 1).each do |r|
