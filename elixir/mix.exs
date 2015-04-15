@@ -4,7 +4,7 @@ defmodule GameOfLife.Mixfile do
   def project do
     [app: :game_of_life,
      version: "0.0.1",
-     elixir: "~> 1.1-dev",
+     elixir: "~> 1.0.4",
      deps: deps]
   end
 
